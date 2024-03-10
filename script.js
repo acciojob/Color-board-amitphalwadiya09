@@ -12,7 +12,7 @@ for (let i = 0; i < 800; i++)
 
     square.addEventListener('mouseout', function () {
         setTimeout(function () {
-            square.style.backgroundColor = rgb(29, 29, 29);
+            square.style.backgroundColor = 'rgb(29, 29, 29)';
         }, 1000);
     });
 
